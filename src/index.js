@@ -1,5 +1,4 @@
 import { fetchBreeds, fetchCatByBreed } from "./cat-api.js";
-import Notiflix from "notiflix";
 
 const breedSelect = document.querySelector('.breed-select');
 const loader = document.querySelector('.loader');
